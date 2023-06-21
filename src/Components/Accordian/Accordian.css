@@ -1,0 +1,35 @@
+
+.box{
+    background-color: darkgoldenrod;
+    /* padding: 2% 4%; */
+    color: aliceblue;
+   
+}
+
+
+.quest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+.answ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-height: 0;
+    overflow: hidden;
+    /* font-size: 20rem; */
+   
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-height: 400px;
+    /* font-size: 30rem; */
+
+}
