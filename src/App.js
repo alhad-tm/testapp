@@ -4,6 +4,7 @@ import Files from './Components/Files/Files';
 import Accordian from './Components/Accordian/Accordian';
 import Alert from './Components/Alert/Alert';
 import Modal from './Components/Modal/Modal';
+import Password from './Components/Password/Password';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
      <Accordian/>
      <Alert/>
      <Modal/>
+     <Password/>
    
-    </div>
+    </div>  
   );
 }
 
