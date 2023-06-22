@@ -3,6 +3,7 @@ import './App.css';
 import Files from './Components/Files/Files';
 import Accordian from './Components/Accordian/Accordian';
 import Alert from './Components/Alert/Alert';
+import Modal from './Components/Modal/Modal';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
      <Accordian/>
      <Alert/>
+     <Modal/>
    
     </div>
   );

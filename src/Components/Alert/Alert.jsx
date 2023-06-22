@@ -14,7 +14,7 @@ const Alert = () => {
             height:"100px",
             width:"400px",
             fontsize:"2px",
-            // timer: 1500,
+            // timer: 2000,
             display:"flex",
             gap:"5rem"
           })
