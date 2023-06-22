@@ -13,6 +13,7 @@
     justify-content: center;
     gap: 2rem;
     cursor: pointer;
+    transition: all 2.5s cubic-bezier(0,1,0,1);
 }
 .answ{
     display: flex;
@@ -21,7 +22,9 @@
     gap: 2rem;
     max-height: 0;
     overflow: hidden;
-    /* font-size: 20rem; */
+    transition: all 2.5s cubic-bezier(0,1,0,1);
+ 
+ 
    
 }
 .show{
@@ -30,6 +33,7 @@
     justify-content: center;
     gap: 2rem;
     max-height: 400px;
-    /* font-size: 30rem; */
+     transition: all 2.5s cubic-bezier(0,1,0,1);
+ 
 
 }
