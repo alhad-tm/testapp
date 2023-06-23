@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+    margin-left: 26rem;
+    margin-top: 4rem;  
+   
+}
+.b1{
+    display: flex;
+    gap: 1rem;
+    padding: 25 6%;
+}
+.boxes{
+    width: 60px; 
+    height: 40px; 
+    background-color: rgb(179, 192, 179);
+    color: rgb(3, 18, 54);
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-style: oblique;
+    cursor: pointer;
+}
+.boxeshow{
+    background-color: rgb(208, 195, 17);
+    color: black;
+    width: 60px; 
+    height: 40px; 
+    font-style: oblique;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}

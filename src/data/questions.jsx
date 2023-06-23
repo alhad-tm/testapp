@@ -6,5 +6,16 @@ export const ItemList=[
 {
     "question":"What is your return policy?",
     "answer":" We allow returns of all items within 30 days of your order date. Just send us an email with your order number and we will send you a return label."
+},
+{
+    "question":"How will thepoints be reduced while booking services?",
+    "answer":" We allow returns of all items within 30 days of your order date. Just send us an email with your order number and we will send you a return label."
 }
+]
+
+export const SelectList=[
+  {  "title":"one"},
+  {  "title":"two"},
+  {  "title":"three"},
+  {  "title":"four"},
 ]

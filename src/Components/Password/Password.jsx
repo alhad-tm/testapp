@@ -12,8 +12,9 @@ const Password = () => {
 
   return (
     <div className={css.container}>
-        <input type={password?"text":"password" }/>
-        <label onClick={handleShow} htmlFor=""> show</label>
+        <input className={css.inp} placeholder='password' type={password?"text":"password"} />
+        <label className={css.lb} onClick={handleShow} htmlFor=""> show</label>
+       
       
     </div>
   )

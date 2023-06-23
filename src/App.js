@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Files from './Components/Files/Files';
+// import Files from './Components/Files/Files';
 import Accordian from './Components/Accordian/Accordian';
 import Alert from './Components/Alert/Alert';
+import Count from './Components/Count/Count';
+import Meter from './Components/Meter/Meter';
 import Modal from './Components/Modal/Modal';
 import Password from './Components/Password/Password';
+import Selection from './Components/Selection/Selection';
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
      <Alert/>
      <Modal/>
      <Password/>
+     <Selection/> 
+     <Meter/>
+     <Count/>
    
     </div>  
   );

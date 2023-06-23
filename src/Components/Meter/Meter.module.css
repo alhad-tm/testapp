@@ -1,0 +1,26 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: thistle;
+    margin-left: 32rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.line{
+    width: 4px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    right: 49%;
+}
+.line1{
+    width: 4px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    right: 26%;
+    top: 23%;
+    transform: rotate(90deg);
+}
